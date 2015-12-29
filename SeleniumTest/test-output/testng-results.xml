@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="88851" started-at="2015-07-21T20:33:42Z" finished-at="2015-07-21T20:35:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="88851" started-at="2015-07-21T20:33:42Z" finished-at="2015-07-21T20:35:11Z">
+      <class name="testcases.NewTestNg">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.NewTestNg@5a39699c]" name="beforeClass" is-config="true" duration-ms="27157" started-at="2015-07-22T02:03:42Z" finished-at="2015-07-22T02:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="verifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.NewTestNg@5a39699c]" name="verifyInvalidLogin" duration-ms="39604" started-at="2015-07-22T02:04:10Z" data-provider="empLogin" finished-at="2015-07-22T02:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method status="PASS" signature="verifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.NewTestNg@5a39699c]" name="verifyInvalidLogin" duration-ms="5494" started-at="2015-07-22T02:04:49Z" data-provider="empLogin" finished-at="2015-07-22T02:04:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method status="PASS" signature="verifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.NewTestNg@5a39699c]" name="verifyInvalidLogin" duration-ms="10017" started-at="2015-07-22T02:04:55Z" data-provider="empLogin" finished-at="2015-07-22T02:05:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method status="PASS" signature="verifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.NewTestNg@5a39699c]" name="verifyInvalidLogin" duration-ms="6106" started-at="2015-07-22T02:05:05Z" data-provider="empLogin" finished-at="2015-07-22T02:05:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.NewTestNg@5a39699c]" name="tearDown" is-config="true" duration-ms="257" started-at="2015-07-22T02:05:11Z" finished-at="2015-07-22T02:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.NewTestNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

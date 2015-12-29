@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite A]">
+  <test name="Test A1(failed)" preserve-order="false">
+    <classes>
+      <class name="dataDrivenFramework.suiteA.Test2">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class>
+      <class name="dataDrivenFramework.suiteA.Test1">
+        <methods>
+          <include name="test1" invocation-numbers="1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Test A2(failed)" preserve-order="false">
+    <classes>
+      <class name="dataDrivenFramework.suiteA.Test2">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+          <include name="test2"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

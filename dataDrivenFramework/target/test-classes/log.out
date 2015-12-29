@@ -1,0 +1,20 @@
+2015-12-25 17:53:48,005 dataDrivenFramework.suiteA.Test1 [DEBUG] - Executing test1
+2015-12-25 17:53:48,006 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test1and suiteName: SuiteA
+2015-12-25 17:53:48,136 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - Test is successfull: test1
+2015-12-25 17:53:48,136 dataDrivenFramework.suiteA.Test1 [DEBUG] - Executing test1
+2015-12-25 17:53:48,137 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test1and suiteName: SuiteA
+2015-12-25 17:53:48,312 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Skipping the test Test1inside the suite SuiteA. Reason: Test input NOT runnable.
+2015-12-25 17:53:48,314 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test1
+2015-12-25 17:53:48,316 dataDrivenFramework.suiteA.Test1 [DEBUG] - Executing test1
+2015-12-25 17:53:48,316 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test1and suiteName: SuiteA
+2015-12-25 17:53:48,455 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - Test is successfull: test1
+2015-12-25 17:53:48,564 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Before Class method-Skipping the test Test2 inside the suite A. Reason: Test Class NOT runnable.
+2015-12-25 17:53:48,672 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test2
+2015-12-25 17:53:48,677 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test2
+2015-12-25 17:53:48,680 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test2
+2015-12-25 17:53:48,779 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test1
+2015-12-25 17:53:48,780 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test1
+2015-12-25 17:53:48,782 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test1
+2015-12-25 17:53:48,835 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test2
+2015-12-25 17:53:48,836 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test2
+2015-12-25 17:53:48,838 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test2

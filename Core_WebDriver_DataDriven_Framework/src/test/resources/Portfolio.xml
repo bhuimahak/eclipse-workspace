@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Portfolio Suite">
+	<test name="Login Test">
+	    <classes>
+	        <class name="dataDrivenFramework.portfolio.LoginTest" />  
+	    </classes>
+	</test>
+	
+	<!-- test name="Test 2">
+	    <classes>
+	       <class name="dataDrivenFramework.portfolio.Test2" />  
+	    </classes>
+	</test -->
+</suite>
+

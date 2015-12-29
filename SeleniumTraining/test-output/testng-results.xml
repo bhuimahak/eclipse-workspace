@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21490" started-at="2015-12-27T10:24:27Z" finished-at="2015-12-27T10:24:48Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="21490" started-at="2015-12-27T10:24:27Z" finished-at="2015-12-27T10:24:48Z">
+      <class name="grid2.testCases.XTest_googleSearch">
+        <test-method status="PASS" signature="searchTest(java.lang.String, java.lang.String)[pri:0, instance:grid2.testCases.XTest_googleSearch@1fbc7afb]" name="searchTest" duration-ms="17315" started-at="2015-12-27T15:54:27Z" data-provider="getData" finished-at="2015-12-27T15:54:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qtp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String, java.lang.String)[pri:0, instance:grid2.testCases.XTest_googleSearch@1fbc7afb]" name="searchTest" duration-ms="21449" started-at="2015-12-27T15:54:27Z" data-provider="getData" finished-at="2015-12-27T15:54:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qtp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String, java.lang.String)[pri:0, instance:grid2.testCases.XTest_googleSearch@1fbc7afb]" name="searchTest" duration-ms="21445" started-at="2015-12-27T15:54:27Z" data-provider="getData" finished-at="2015-12-27T15:54:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+      </class> <!-- grid2.testCases.XTest_googleSearch -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test A(failed)">
+    <classes>
+      <class name="dataDrivenFramework.suiteA.Test1">
+        <methods>
+          <include name="test1" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- dataDrivenFramework.suiteA.Test1 -->
+      <class name="dataDrivenFramework.suiteA.Test2">
+        <methods>
+          <include name="test2" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- dataDrivenFramework.suiteA.Test2 -->
+    </classes>
+  </test> <!-- Test A(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mySuite]">
+  <listeners>
+    <listener class-name="testing.TestListenerEx"/>
+  </listeners>
+  <test name="test2(failed)">
+    <classes>
+      <class name="testing.NewTest2">
+        <methods>
+          <include name="testMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testing.NewTest2 -->
+      <class name="testing.NewTest">
+        <methods>
+          <include name="openingBrowser"/>
+          <include name="beforeClass"/>
+          <include name="endingConnection"/>
+          <include name="closingBrowser"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="connect"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testing.NewTest -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [mySuite] -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite A]">
+  <listeners>
+    <listener class-name="dataDrivenFramework.dataDriven.CustomListener"/>
+  </listeners>
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="dataDrivenFramework.portfolio.Test2">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- dataDrivenFramework.portfolio.Test2 -->
+      <class name="dataDrivenFramework.portfolio.LoginTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- dataDrivenFramework.portfolio.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test name="Test 2(failed)">
+    <classes>
+      <class name="dataDrivenFramework.portfolio.Test2">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test2"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- dataDrivenFramework.portfolio.Test2 -->
+    </classes>
+  </test> <!-- Test 2(failed) -->
+</suite> <!-- Failed suite [Suite A] -->

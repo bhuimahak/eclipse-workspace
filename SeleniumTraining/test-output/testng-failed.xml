@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test1(failed)" parallel="none">
+    <classes>
+      <class name="grid2.testCases.XTest_googleSearch">
+        <methods>
+          <include name="searchTest" invocation-numbers="1 0"/>
+        </methods>
+      </class> <!-- grid2.testCases.XTest_googleSearch -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

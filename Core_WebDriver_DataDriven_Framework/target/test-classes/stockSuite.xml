@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Stock Suite">
+
+<test name="Add Stock">
+        <classes>
+            <class name="dataDrivenFramework.stockSuite.AddStock" />  
+        </classes>
+    </test>
+    
+    <!--  test name="Test 2">
+        <classes>
+           <class name="dataDrivenFramework.stockSuite.Test2" />  
+        </classes>
+    </test -->
+    
+</suite>
+

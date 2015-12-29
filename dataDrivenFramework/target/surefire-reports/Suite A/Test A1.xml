@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="mahak-PC" name="dataDrivenFramework.suiteA.Test1" tests="3" failures="0" timestamp="25 Dec 2015 06:31:41 GMT" time="0.595" errors="0">
+  <testcase name="test1" time="0.128" classname="dataDrivenFramework.suiteA.Test1"/>
+  <testcase name="test1" time="0.107" classname="dataDrivenFramework.suiteA.Test1">
+    <skipped/>
+  </testcase>
+  <testcase name="test1" time="0.209" classname="dataDrivenFramework.suiteA.Test1"/>
+</testsuite>

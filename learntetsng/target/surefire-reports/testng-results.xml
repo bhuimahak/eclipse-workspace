@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="38" started-at="2015-12-20T13:18:55Z" finished-at="2015-12-20T13:18:55Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="38" started-at="2015-12-20T13:18:55Z" finished-at="2015-12-20T13:18:55Z">
+      <class name="com.learntetsng.AppTest">
+        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="14" started-at="2015-12-20T13:18:55Z" finished-at="2015-12-20T13:18:55Z">
+        </test-method>
+      </class>
+      <class name="com.learntetsng.SampleTest">
+        <test-method status="PASS" signature="testSample()" name="testSample" duration-ms="4" started-at="2015-12-20T13:18:55Z" finished-at="2015-12-20T13:18:55Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
