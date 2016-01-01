@@ -26,7 +26,7 @@ public class TestDataProvider {
 	public static Object[][] getDataSuiteB(Method m) {
 		ExcelReader reader = null;
 		try {
-			reader = new ExcelReader(PropertiesProvider.getProperty("xlsFileLocation") + "\\" + Constants.SECOND_SUITE
+			reader = new ExcelReader(PropertiesProvider.getProperty("xlsFileLocation") + "\\" + Constants.STOCK_SUITE
 					+ ".xlsx", "Data");
 		} catch (EncryptedDocumentException | InvalidFormatException | IOException e) {
 			e.printStackTrace();

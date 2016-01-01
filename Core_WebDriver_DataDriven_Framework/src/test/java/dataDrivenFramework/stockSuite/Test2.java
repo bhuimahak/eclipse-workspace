@@ -18,7 +18,7 @@ public class Test2 extends TestBase {
 	@BeforeSuite
 	public void beforeSuite() throws EncryptedDocumentException, InvalidFormatException, IOException {
 		ExcelReader reader = new ExcelReader("src\\test\\resources\\Suite.xlsx", Constants.SUITE_SHEET);
-		boolean isSuiteRunnable = Utility.isSuiteRunnable(Constants.SECOND_SUITE, reader);
+		boolean isSuiteRunnable = Utility.isSuiteRunnable(Constants.STOCK_SUITE, reader);
 		if (!isSuiteRunnable) {
 			throw new SkipException("Suite is not Runnable");
 		}
@@ -36,7 +36,7 @@ public class Test2 extends TestBase {
 	@Test(dataProviderClass = TestDataProvider.class, dataProvider = "suiteBDataProvider")
 	public void test2(HashMap<String, String> map) {
 		String runmode = map.get(Constants.RUNMODE_COL);
-		validateRunmodes("Test2", Constants.SECOND_SUITE, runmode);
+		validateRunmodes("Test2", Constants.STOCK_SUITE, runmode);
 	}
 
 }
