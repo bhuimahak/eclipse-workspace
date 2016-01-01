@@ -20,7 +20,7 @@ public class PrimitiveandReferences {
 		final PrimitiveandReferences pr; //why??static variables can't be declared in a method and final vars cant be declared as instance vars unless they are initialised..why?
 		int v = 5;
 		pr = new PrimitiveandReferences(); //why is this not working?
-		pr = new PrimitiveandReferences();
+	//	pr = new PrimitiveandReferences();
 		// System.out.println("here");
 		 PrimitiveandReferences fr = new PrimitiveandReferences();
 		 System.out.println("no of objs: " + counter);

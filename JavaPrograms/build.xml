@@ -2,16 +2,16 @@
 <!DOCTYPE project [
 ]>
 
-<project name="Module_8_Junit_Ant" default="usage" basedir=".">
+<project name="JavaPrograms" default="usage" basedir=".">
 
 	<!-- ========== Initialize Properties =================================== -->
 	<property environment="env" />
 
 	<property name="ws.home" value="${basedir}" />
-	<property name="ws.jars" value="C:\jars" />
+	<property name="ws.jars" value="./jars" />
     <property name="test.src" value="${ws.home}/src" />
 	<property name="test.dest" value="${ws.home}/build" />
-    <property name="test.jar" value="${ws.home}/lib/JavaTest.jar" />
+    <property name="test.jar" value="${ws.home}/lib/JavaPrograms.jar" />
 	<property name="test.reportsDir" value="${basedir}/reports" />
 
 	<path id="testcase.path">

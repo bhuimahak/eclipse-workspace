@@ -1,5 +1,10 @@
 target/
+
 bin/
-.metadata/
+.metadata
+build/
+lib/
+reports/
+*.class
 .recommenders/
 RemoteSystemsTempFiles/
