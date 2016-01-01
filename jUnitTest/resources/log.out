@@ -1,0 +1,4 @@
+2015-11-15 15:25:43,403 junit.test.FirstTestCase [INFO ] - **TestCase1 started--Opening the browser**
+2015-11-15 15:25:43,406 junit.test.FirstTestCase [INFO ] - Logging in the user
+2015-11-15 15:25:43,408 junit.test.FirstTestCase [INFO ] - Checking email
+2015-11-15 15:25:43,408 junit.test.FirstTestCase [INFO ] - **TestCase1 ending--Closing the browser**
