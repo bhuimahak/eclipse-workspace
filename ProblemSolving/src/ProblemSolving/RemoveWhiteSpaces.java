@@ -1,4 +1,4 @@
-package probelmSolving;
+package ProblemSolving;
 
 public class RemoveWhiteSpaces {
 
