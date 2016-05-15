@@ -1,5 +1,9 @@
 
 public class ObjectMethods {
+	
+	public void vvv() throws Exception{
+		throw new Exception();
+	}
 
 	public static void main(String[] args) {
 		Animal a = new Cat();

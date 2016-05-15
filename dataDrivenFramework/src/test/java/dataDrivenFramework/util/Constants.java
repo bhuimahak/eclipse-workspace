@@ -5,6 +5,7 @@ public class Constants {
 	//suiteNames
 	public static final String FIRST_SUITE = "SuiteA";
 	public static final String SECOND_SUITE = "SuiteB";
+	public static final String ROOT_SUITE = "My Project";
 	//SheetNames
 	public static final String SUITE_SHEET = "Suite";
 	public static String TESTCASES_SHEET = "TestCases";

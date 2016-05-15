@@ -1,6 +1,7 @@
 package ProblemSolving;
 
 public class AnagramBasic {
+	//Anagram is if two strings has the same characters but in different order Ex: s1= "mehak" and "hemak"
 
 	public static void main(String[] args) {
 		boolean status = true;

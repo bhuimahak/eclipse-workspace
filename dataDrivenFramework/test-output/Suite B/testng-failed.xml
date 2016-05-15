@@ -6,14 +6,9 @@
   </listeners>
   <test name="Test 1(failed)">
     <classes>
-      <class name="dataDrivenFramework.suiteB.Test2">
-        <methods>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- dataDrivenFramework.suiteB.Test2 -->
       <class name="dataDrivenFramework.suiteB.Test1">
         <methods>
-          <include name="test1"/>
+          <include name="test1" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- dataDrivenFramework.suiteB.Test1 -->
     </classes>
@@ -22,8 +17,7 @@
     <classes>
       <class name="dataDrivenFramework.suiteB.Test2">
         <methods>
-          <include name="test2"/>
-          <include name="beforeSuite"/>
+          <include name="test2" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- dataDrivenFramework.suiteB.Test2 -->
     </classes>

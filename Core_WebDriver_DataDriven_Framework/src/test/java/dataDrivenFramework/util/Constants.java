@@ -5,8 +5,10 @@ public class Constants {
 	//suiteNames
 	public static final String PORTFOLIO_SUITE = "PortFolioSuite";
 	public static final String STOCK_SUITE = "StockSuite";
+	
 	//SheetNames
 	public static final String SUITE_SHEET = "Suite";
+	public static final Object ROOT_SUITE = "My Suite";
 	public static String TESTCASES_SHEET = "TestCases";
 	
 	

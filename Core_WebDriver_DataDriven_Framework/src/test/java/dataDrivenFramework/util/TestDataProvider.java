@@ -14,11 +14,11 @@ public class TestDataProvider {
 		ExcelReader reader = null;
 		try {
 			reader = new ExcelReader(PropertiesProvider.getProperty("xlsFileLocation") + "\\" + Constants.PORTFOLIO_SUITE
-					+ ".xlsx", "Data");
+					+ ".xlsx", "Data"); //Data is the sheetName
 		} catch (EncryptedDocumentException | InvalidFormatException | IOException e) {
 			e.printStackTrace();
 		}
-		return Utility.getData(m.getName(), reader);
+		return Utility.getData(m.getName(), reader);  //this will return an object array
 
 	}
 

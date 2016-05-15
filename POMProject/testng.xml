@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Facebook Suite">
+	<listeners>
+		<listener class-name="com.PomModel.listener.Custom_listener" />
+	</listeners>
+	
+	<test name="Login Test">
+		<classes>
+			<class name="com.PomModel.facebook.testCases.LoginTest"></class>
+		</classes>
+	</test>
+	
+	<test name="FindaFriend Test">
+        <classes>
+            <class name="com.PomModel.facebook.testCases.FindaFriendTest"></class>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

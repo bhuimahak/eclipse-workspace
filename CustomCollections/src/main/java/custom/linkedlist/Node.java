@@ -9,14 +9,9 @@ public class Node {
 		this.next = null;
 	}
 
-	// @Override
-	// public String toString() {
-	// return "Node [Value=" + s + ", Next=" + next + "]";
-	// }
-
 	@Override
 	public String toString() {
-		return value + " -> " + next;
+		return "Node [value=" + value + ", next=" + next + "]";
 	}
 
 	public String getValue() {

@@ -67,6 +67,12 @@ public class CustomLinkedList {
 		return count;
 	}
 	
+	
+	@Override
+	public String toString() {
+		return "CustomLinkedList [head=" + head + "]";
+	}
+
 	public void add(int position, String value) throws Exception {
 		int count = length();
 		if (position < 0 || position > count){

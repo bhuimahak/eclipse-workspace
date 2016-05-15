@@ -1,20 +1,28 @@
-2015-12-25 17:53:48,005 dataDrivenFramework.suiteA.Test1 [DEBUG] - Executing test1
-2015-12-25 17:53:48,006 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test1and suiteName: SuiteA
-2015-12-25 17:53:48,136 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - Test is successfull: test1
-2015-12-25 17:53:48,136 dataDrivenFramework.suiteA.Test1 [DEBUG] - Executing test1
-2015-12-25 17:53:48,137 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test1and suiteName: SuiteA
-2015-12-25 17:53:48,312 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Skipping the test Test1inside the suite SuiteA. Reason: Test input NOT runnable.
-2015-12-25 17:53:48,314 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test1
-2015-12-25 17:53:48,316 dataDrivenFramework.suiteA.Test1 [DEBUG] - Executing test1
-2015-12-25 17:53:48,316 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test1and suiteName: SuiteA
-2015-12-25 17:53:48,455 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - Test is successfull: test1
-2015-12-25 17:53:48,564 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Before Class method-Skipping the test Test2 inside the suite A. Reason: Test Class NOT runnable.
-2015-12-25 17:53:48,672 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test2
-2015-12-25 17:53:48,677 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test2
-2015-12-25 17:53:48,680 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test2
-2015-12-25 17:53:48,779 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test1
-2015-12-25 17:53:48,780 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test1
-2015-12-25 17:53:48,782 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test1
-2015-12-25 17:53:48,835 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test2
-2015-12-25 17:53:48,836 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test2
-2015-12-25 17:53:48,838 dataDrivenFramework.dataDriven.CustomListener [DEBUG] - This test Skipped: test2
+2016-01-03 12:37:35,302 dataDrivenFramework.suiteA.Test1 [DEBUG] - Executing test1
+2016-01-03 12:37:35,303 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test1and suiteName: SuiteA
+2016-01-03 12:37:35,393 dataDrivenFramework.suiteA.Test1 [DEBUG] - Executing test1
+2016-01-03 12:37:35,393 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test1and suiteName: SuiteA
+2016-01-03 12:37:35,473 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Skipping the test Test1inside the suite SuiteA. Reason: Test input NOT runnable.
+2016-01-03 12:37:35,476 dataDrivenFramework.suiteA.Test1 [DEBUG] - Executing test1
+2016-01-03 12:37:35,477 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test1and suiteName: SuiteA
+2016-01-03 12:37:35,652 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Executing Test2
+2016-01-03 12:37:35,652 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test2and suiteName: SuiteA
+2016-01-03 12:37:35,729 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Skipping the test Test2 inside the suite SuiteA. Reason: Test case NOT runnable.
+2016-01-03 12:37:35,731 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Executing Test2
+2016-01-03 12:37:35,731 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test2and suiteName: SuiteA
+2016-01-03 12:37:35,812 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Skipping the test Test2 inside the suite SuiteA. Reason: Test case NOT runnable.
+2016-01-03 12:37:35,817 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Executing Test2
+2016-01-03 12:37:35,817 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test2and suiteName: SuiteA
+2016-01-03 12:37:35,924 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Skipping the test Test2 inside the suite SuiteA. Reason: Test case NOT runnable.
+2016-01-03 12:37:36,346 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test1and suiteName: SuiteB
+2016-01-03 12:37:36,370 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Skipping the test Test1 inside the suite SuiteB. Reason: Suite NOT runnable.
+2016-01-03 12:37:36,372 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test1and suiteName: SuiteB
+2016-01-03 12:37:36,395 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Skipping the test Test1 inside the suite SuiteB. Reason: Suite NOT runnable.
+2016-01-03 12:37:36,396 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test1and suiteName: SuiteB
+2016-01-03 12:37:36,432 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Skipping the test Test1 inside the suite SuiteB. Reason: Suite NOT runnable.
+2016-01-03 12:37:36,489 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test2and suiteName: SuiteB
+2016-01-03 12:37:36,510 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Skipping the test Test2 inside the suite SuiteB. Reason: Suite NOT runnable.
+2016-01-03 12:37:36,512 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test2and suiteName: SuiteB
+2016-01-03 12:37:36,550 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Skipping the test Test2 inside the suite SuiteB. Reason: Suite NOT runnable.
+2016-01-03 12:37:36,552 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Validating runmode for testName: Test2and suiteName: SuiteB
+2016-01-03 12:37:36,573 dataDrivenFramework.dataDriven.TestBase [DEBUG] - Skipping the test Test2 inside the suite SuiteB. Reason: Suite NOT runnable.

@@ -16,7 +16,7 @@ public class TestBase {
 
 	public void validateRunmodes(String testName, String suiteName, String dataRunmode) {
 		try {
-			APPLICATION_LOG.debug("Validating runmode for testName: " + testName + "and suiteName: "+suiteName);
+			APPLICATION_LOG.debug("Validating runmode for testName: " + testName + "and suiteName: " + suiteName);
 			boolean isSuiteRunnable = Utility.isSuiteRunnable(suiteName,
 					new ExcelReader(PropertiesProvider.getProperty("xlsFileLocation") + "Suite.xlsx",
 							Constants.SUITE_SHEET));

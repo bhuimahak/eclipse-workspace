@@ -1,4 +1,4 @@
-package database;
+ package database;
 
 //STEP 1. Import required packages
 import java.sql.*;

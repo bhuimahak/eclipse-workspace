@@ -3,9 +3,9 @@ package singleton;
 public class SingletonTest {
 
 	public static void main(String[] args) {
-		SingletonEx single = SingletonEx.getInstance();
+		Singleton single = Singleton.getInstance();
 		System.out.println(single);
-		SingletonEx two = SingletonEx.getInstance();
+		Singleton two = Singleton.getInstance();
 		System.out.println(two);
 
 	}

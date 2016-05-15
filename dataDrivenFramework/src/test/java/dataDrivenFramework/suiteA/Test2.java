@@ -16,25 +16,25 @@ import dataDrivenFramework.util.TestDataProvider;
 import dataDrivenFramework.util.Utility;
 
 public class Test2 extends TestBase {
-	@BeforeSuite
-	public void beforeSuite() throws EncryptedDocumentException, InvalidFormatException, IOException {
-		ExcelReader reader = new ExcelReader("src\\test\\resources\\Suite.xlsx", Constants.SUITE_SHEET);
-		boolean isSuiteRunnable = Utility.isSuiteRunnable(Constants.FIRST_SUITE, reader);
-		if (!isSuiteRunnable) {
-			throw new SkipException("Suite is not Runnable");
-		}
-	}
-
-	@BeforeClass
-	public void beforeClass() throws EncryptedDocumentException, InvalidFormatException, IOException {
-		boolean isTestCaseRunnable = Utility.isTestCaseRunnable("Test2", new ExcelReader(
-				"src\\test\\resources\\SuiteA.xlsx", Constants.TESTCASES_SHEET));
-		if (isTestCaseRunnable == false) {
-			String message = "Before Class method-Skipping the test Test2 inside the suite A. Reason: Test Class NOT runnable.";
-			APPLICATION_LOG.debug(message);
-			throw new SkipException(message);
-		}
-	}
+//	@BeforeSuite
+//	public void beforeSuite() throws EncryptedDocumentException, InvalidFormatException, IOException {
+//		ExcelReader reader = new ExcelReader("src\\test\\resources\\Suite.xlsx", Constants.SUITE_SHEET);
+//		boolean isSuiteRunnable = Utility.isSuiteRunnable(Constants.FIRST_SUITE, reader);
+//		if (!isSuiteRunnable) {
+//			throw new SkipException("Suite is not Runnable");
+//		}
+//	}
+//
+//	@BeforeClass
+//	public void beforeClass() throws EncryptedDocumentException, InvalidFormatException, IOException {
+//		boolean isTestCaseRunnable = Utility.isTestCaseRunnable("Test2", new ExcelReader(
+//				"src\\test\\resources\\SuiteA.xlsx", Constants.TESTCASES_SHEET));
+//		if (isTestCaseRunnable == false) {
+//			String message = "Before Class method-Skipping the test Test2 inside the suite A. Reason: Test Class NOT runnable.";
+//			APPLICATION_LOG.debug(message);
+//			throw new SkipException(message);
+//		}
+//	}
 
 	@Test(dataProviderClass = TestDataProvider.class, dataProvider = "suiteADataProvider")
 	public void test2(HashMap<String, String> map) {
