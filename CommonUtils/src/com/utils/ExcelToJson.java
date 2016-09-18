@@ -11,7 +11,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-public class ExcelReader {
+public class ExcelToJson {
 
 	public static void main(String[] args) throws EncryptedDocumentException, InvalidFormatException, IOException {
 		Workbook workbook = WorkbookFactory
