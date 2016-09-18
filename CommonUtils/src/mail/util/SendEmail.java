@@ -19,8 +19,8 @@ public class SendEmail {
 
 	public static void main(String[] args) {
 
-		String userName = "bhuimahak";
-		String password = "Meh@405805";
+		String userName = "";
+		String password = "";
 
 		// Recipient's email id
 		String to = "qadriarslan@gmail.com;qadriarslan@outlook.com;qadriarslan@yahoo.com";
