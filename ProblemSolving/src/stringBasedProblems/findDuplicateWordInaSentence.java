@@ -1,6 +1,7 @@
 package stringBasedProblems;
 
 import java.util.HashSet;
+import java.util.Set;
 
 //using HashSet
 public class findDuplicateWordInaSentence {
@@ -19,7 +20,7 @@ public class findDuplicateWordInaSentence {
 
 		String duplicate = null;
 		String[] words = sentence.split(" ");
-		HashSet<String> wordSet = new HashSet<>();
+		Set<String> wordSet = new HashSet<>();
 		for (int i = 0; i < words.length; i++) {
 			String word = words[i].toLowerCase();
 			boolean isAdded = wordSet.add(word);

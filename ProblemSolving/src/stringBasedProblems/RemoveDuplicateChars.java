@@ -28,14 +28,14 @@ public class RemoveDuplicateChars {
 
 	public void listLogic(String s) {
 
-		List<Character> l = new ArrayList<>();
+		List<Character> list = new ArrayList<>();
 		for (int i = 0; i < s.length(); i++) {
 			char c = s.charAt(i);
-			if (!(l.contains(c))) {
-				l.add(c);
+			if (!(list.contains(c))) {
+				list.add(c);
 			}
 		}
-		for (char k : l) {
+		for (char k : list) {
 			System.out.print(k);
 		}
 	}

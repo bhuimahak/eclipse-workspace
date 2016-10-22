@@ -1,0 +1,59 @@
+{
+    "skillTypes": ["CUSTOM"],
+    "skillId": "amzn1.ask.skill.a468cfe0-1c0e-47a8-aaac-76f8523adb9a",
+    "version": "1.0",
+    "multinationalPublishingInfo": {"publishingInfoByLocale": {"en_US": {
+        "summary": "short skill desc",
+        "examplePhrases": [
+            "Alexa cfnvfj",
+            "Alexa dfjkbsv",
+            "Alexa mdfnm"
+        ],
+        "name": "AlexaAutomationTest#04",
+        "description": "full skill desc",
+        "locale": "en_US"
+    }}},
+    "customInteractionModelInfo": {
+        "sampleUtterances": {"localizedSampleUtterances": {"en_US": {
+            "locale": "en_US",
+            "s3Artifact": {
+                "s3Url": "http://s3.amazonaws.com/alexa-content-ingestion-prod/assets/amzn1.ask.skill.a468cfe0-1c0e-47a8-aaac-76f8523adb9a/1/slu/en_US-d0babc77-a303-44b1-bfcf-208ae3c4a351-sluSampleUtterances.plain",
+                "s3Key": "assets/amzn1.ask.skill.a468cfe0-1c0e-47a8-aaac-76f8523adb9a/1/slu/en_US-d0babc77-a303-44b1-bfcf-208ae3c4a351-sluSampleUtterances.plain",
+                "s3Bucket": "alexa-content-ingestion-prod"
+            }
+        }}},
+        "endpoints": {"regionalizedEndpoint": {"NA": {
+            "sslCertificateType": "Trusted",
+            "isDefaultRegion": true,
+            "region": "NA",
+            "type": "HTTPS",
+            "url": "https://cjhdjv.com"
+        }}},
+        "invocationNames": {"localizedInvocationName": {"en_US": "weatherhvjvj"}},
+        "customSlotTypes": {"localizedCustomSlotTypes": {"en_US": {
+            "locale": "en_US",
+            "customSlotList": [{
+                "customSlotS3Artifact": {
+                    "s3Url": "http://s3.amazonaws.com/alexa-content-ingestion-prod/assets/amzn1.ask.skill.a468cfe0-1c0e-47a8-aaac-76f8523adb9a/1/slu/en_US-106e61ca-0d40-4752-955a-ca4c2dd3d885-sluSlotTypes.json",
+                    "s3Key": "assets/amzn1.ask.skill.a468cfe0-1c0e-47a8-aaac-76f8523adb9a/1/slu/en_US-106e61ca-0d40-4752-955a-ca4c2dd3d885-sluSlotTypes.json",
+                    "s3Bucket": "alexa-content-ingestion-prod"
+                },
+                "customSlotName": "sluSlotTypes_2016_09_14_08_243075548.json"
+            }]
+        }}},
+        "intentSchema": {"localizedIntentSchema": {"en_US": {
+            "locale": "en_US",
+            "s3Artifact": {
+                "s3Url": "http://s3.amazonaws.com/alexa-content-ingestion-prod/assets/amzn1.ask.skill.a468cfe0-1c0e-47a8-aaac-76f8523adb9a/1/slu/en_US-184c0fad-8fd3-47db-8bcb-71130c700805-sluIntentSchema.json",
+                "s3Key": "assets/amzn1.ask.skill.a468cfe0-1c0e-47a8-aaac-76f8523adb9a/1/slu/en_US-184c0fad-8fd3-47db-8bcb-71130c700805-sluIntentSchema.json",
+                "s3Bucket": "alexa-content-ingestion-prod"
+            }
+        }}}
+    },
+    "accountLinkingInfo": {
+        "supportsLinking": true,
+        "domains": [],
+        "partnerId": "if7JRcEeReQ8Ob36usVIvbK5a",
+        "type": "AUTH_CODE"
+    }
+}

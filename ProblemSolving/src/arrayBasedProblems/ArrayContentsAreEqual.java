@@ -4,7 +4,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-//TO check whether two arrays has same contents or not
+//To check whether two arrays has same contents or not
 
 public class ArrayContentsAreEqual {
 	int[] arr1 = { 2, 4, 6, 8 };

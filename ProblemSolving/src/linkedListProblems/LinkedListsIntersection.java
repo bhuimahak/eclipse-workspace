@@ -1,6 +1,7 @@
 package linkedListProblems;
 
 import java.util.Stack;
+//find the intersection of two linked lists
 
 public class LinkedListsIntersection {
 

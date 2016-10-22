@@ -1,0 +1,42 @@
+[
+    {
+        "phone": [
+            "123",
+            "456",
+            "765"
+        ],
+        "name": {
+            "firstName": "Neeta",
+            "lastName": "Paul"
+        },
+        "company": "Amazon",
+        "designation": "SDE",
+        "age": 25
+    },
+    {
+        "phone": [
+            "398",
+            "547"
+        ],
+        "name": {
+            "firstName": "Ramu",
+            "lastName": "Purty"
+        },
+        "company": "Accenture",
+        "designation": "SDE2",
+        "age": 28
+    },
+    {
+        "phone": [
+            "267",
+            "145"
+        ],
+        "name": {
+            "firstName": "Ashu",
+            "lastName": "Qadri"
+        },
+        "company": "DEShaw",
+        "designation": "PL",
+        "age": 30
+    }
+]

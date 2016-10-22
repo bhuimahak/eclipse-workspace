@@ -3,7 +3,7 @@ package stringBasedProblems;
 import java.util.HashMap;
 import java.util.Map;
 
-// input = "swiss" output = w
+// input = "swiss" expected output = w
 public class FindFirstNonRepeatedChar {
 
 	public static void main(String[] args) {
