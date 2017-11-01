@@ -6,11 +6,13 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ErrorCollector;
 
+@SuppressWarnings("deprecation")
 public class Assertions {
 
 	@Rule
 	public ErrorCollector errCollect = new ErrorCollector();
 
+	@SuppressWarnings("deprecation")
 	@Test
 	public void test() {
 		String actual = "A";

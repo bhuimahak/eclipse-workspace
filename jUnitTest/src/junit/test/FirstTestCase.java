@@ -1,5 +1,7 @@
 package junit.test;
 
+import java.util.logging.LogManager;
+
 import org.apache.log4j.Logger;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -7,7 +9,7 @@ import org.junit.Test;
 
 public class FirstTestCase {
 	
-	private static final Logger log = Logger.getLogger(FirstTestCase.class);
+	private static final java.util.logging.Logger log = LogManager.getLogManager()g);
 
 	@BeforeClass
 	public static void openBrowser() {

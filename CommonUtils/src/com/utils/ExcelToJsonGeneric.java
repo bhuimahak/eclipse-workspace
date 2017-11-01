@@ -1,5 +1,9 @@
 package com.utils;
 
+import gvjava.org.json.JSONArray;
+import gvjava.org.json.JSONException;
+import gvjava.org.json.JSONObject;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
@@ -12,11 +16,10 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.json.JSONArray;
-import org.json.JSONObject;
+
 
 public class ExcelToJsonGeneric {
-	public static void main(String[] args) throws EncryptedDocumentException, InvalidFormatException, IOException {
+	public static void main(String[] args) throws EncryptedDocumentException, InvalidFormatException, IOException, JSONException {
 		Workbook workbook = WorkbookFactory
 				.create(new File("C:\\Users\\mahabhui\\personal_git\\eclipse-workspace\\CommonUtils\\SampleData.xlsx"));
 		Sheet sheet = workbook.getSheetAt(0);
@@ -41,6 +44,8 @@ public class ExcelToJsonGeneric {
 		System.out.println(employeesJsonArray.toString());
 	}
 	
+	//can we replace this switch case with enum?
+	@SuppressWarnings("deprecation")
 	private static Object getCellValue(Cell cell) {
 		Object value = "";
 		switch(cell.getCellType()) {
