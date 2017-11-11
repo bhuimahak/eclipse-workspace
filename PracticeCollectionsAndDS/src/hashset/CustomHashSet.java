@@ -1,4 +1,4 @@
-package collectionImplementation;
+package hashset;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,12 +8,12 @@ public class CustomHashSet<K> {
 	private static final int noOfBuckets = 20;
 	// List<List<K>> buckets; y can't we use this?
 
-	List<List<Entry>> buckets;
+	List<List<K>> buckets;
 
 	public CustomHashSet() {
-		buckets = new ArrayList<List<Entry>>();
+		buckets = new ArrayList<List<K>>();
 		for (int i = 0; i < noOfBuckets; i++) {
-			buckets.add(new ArrayList<Entry>());
+			buckets.add(new ArrayList<K>());
 		}
 	}
 
@@ -26,19 +26,28 @@ public class CustomHashSet<K> {
 			hashcode = element.hashCode();
 		}
 		int bucketNo = hash(hashcode);
-		List<Entry> bucket = buckets.get(bucketNo);
-		for (Entry entryObj : bucket) {
-			K entryElement = entryObj.getElement();
-			if (entryElement == null && element == null) {
+		List<K> bucket = buckets.get(bucketNo);
+		for (K entryObj : bucket) {
+			if (entryObj == null && element == null) {
 				isElementAdded = false;
-			} else if (entryElement != null && entryElement.equals(element)) {
+			} else if (entryObj != null && entryObj.equals(element)) {
 				isElementAdded = false;
 			}
 		}
 		if (isElementAdded == true) {
-			bucket.add(new Entry(element));
+			bucket.add(element);
 		}
 		return isElementAdded;
+	}
+
+	public List<K> getAllValues() {
+		List<K> listToReturn = new ArrayList<K>();
+		for (List<K> bucket : buckets) {
+			for (K value : bucket) {
+				listToReturn.add(value);
+			}
+		}
+		return listToReturn;
 	}
 
 	@Override
@@ -49,19 +58,6 @@ public class CustomHashSet<K> {
 	private int hash(int hashcode) {
 		int bucket = (Math.abs(hashcode)) % noOfBuckets;
 		return bucket;
-	}
-
-	class Entry {
-		private K element;
-
-		public Entry(K element) {
-			this.element = element;
-		}
-
-		public K getElement() {
-			return element;
-		}
-
 	}
 
 }

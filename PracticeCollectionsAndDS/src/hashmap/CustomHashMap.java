@@ -1,4 +1,4 @@
-package collectionImplementation;
+package hashmap;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,18 +9,21 @@ public class CustomHashMap<K, V> {
 
 	private static final int noOfBuckets = 20;
 	List<List<Entry>> buckets;
-	int hashCode;
 
 	public CustomHashMap() {
+		buckets = new ArrayList<List<Entry>>();
 		for (int i = 0; i < noOfBuckets; i++) {
-			buckets = new ArrayList<List<Entry>>();
 			buckets.add(new ArrayList<Entry>());
 		}
 	}
 
 	public void put(K key, V value) {
 		int hashCode;
-		hashCode = key.hashCode();
+		if (key == null) {
+			hashCode = 0;
+		} else {
+			hashCode = key.hashCode();
+		}
 		int bucketNo = hash(hashCode);
 		List<Entry> bucket = buckets.get(bucketNo);
 		if (bucket == null) {
@@ -40,10 +43,15 @@ public class CustomHashMap<K, V> {
 					foundKey = true;
 				}
 			}
-			if (foundKey = false) {
+			if (foundKey == false) {
 				bucket.add(new Entry(key, value));
 			}
 		}
+	}
+
+	@Override
+	public String toString() {
+		return "CustomHashMap [buckets=" + buckets + "]";
 	}
 
 	public V get(K key) {
@@ -98,6 +106,11 @@ public class CustomHashMap<K, V> {
 
 		public void setValue(V value) {
 			this.value = value;
+		}
+
+		@Override
+		public String toString() {
+			return "Entry [key=" + key + ", value=" + value + "]";
 		}
 	}
 }
